@@ -3,3 +3,15 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .logo {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
